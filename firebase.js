@@ -6,7 +6,7 @@ import { GoogleAuthProvider, getAuth } from 'firebase/auth'
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB6fn72gWaBF0LIQqkaUPtnAaXkWc2d8FE",
+    apiKey: process.env.FIRE_KEY,
     authDomain: "uber-next-2394d.firebaseapp.com",
     projectId: "uber-next-2394d",
     storageBucket: "uber-next-2394d.appspot.com",
