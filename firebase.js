@@ -11,7 +11,7 @@ const firebaseConfig = {
     projectId: "uber-next-2394d",
     storageBucket: "uber-next-2394d.appspot.com",
     messagingSenderId: "765348340633",
-    appId: "1:765348340633:web:6d59e64c4b91dce7a02908"
+    appId: process.env.FIRE_APP_ID
 };
 
 // Initialize Firebase
